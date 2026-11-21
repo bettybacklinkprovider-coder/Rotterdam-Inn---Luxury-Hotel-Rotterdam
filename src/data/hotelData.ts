@@ -71,9 +71,9 @@ export const ROOMS: Room[] = [
     capacity: "2 Guests",
     size: "26 m²",
     bed: "Twin / Double Beds",
-    image: "/src/assets/images/rotterdam_inn_suite_1795253191625.jpg",
+    image: "/images/rotterdam_inn_suite.jpg",
     gallery: [
-      "/src/assets/images/rotterdam_inn_suite_1795253191625.jpg",
+      "/images/rotterdam_inn_suite.jpg",
       "https://images.unsplash.com/photo-1566665797739-1674de7a421a?q=80&w=1200&auto=format&fit=crop"
     ],
     description: "Designed for modern travelers seeking comfort and tranquility overlooking the historic Provenierssingel canal. Features bespoke furnishings, premium bedding, and a sleek rain shower.",
@@ -88,10 +88,10 @@ export const ROOMS: Room[] = [
     capacity: "2-3 Guests",
     size: "38 m²",
     bed: "Plush King Size Bed",
-    image: "/src/assets/images/rotterdam_inn_hero_1795253192215.jpg",
+    image: "/images/rotterdam_inn_hero.jpg",
     gallery: [
-      "/src/assets/images/rotterdam_inn_hero_1795253192215.jpg",
-      "/src/assets/images/rotterdam_inn_suite_1795253191625.jpg"
+      "/images/rotterdam_inn_hero.jpg",
+      "/images/rotterdam_inn_suite.jpg"
     ],
     description: "Our signature Executive King Suite offers generous living space, luxury seating area, and expansive windows framing the vibrant North Rotterdam skyline.",
     amenities: ["King Size Bed", "Sitting Area", "Complimentary Mini-Bar", "Rain Shower & Bathtub", "Espresso Bar", "High-Speed Wi-Fi", "Bathrobes & Slippers", "Smart Climate Control"],
@@ -106,9 +106,9 @@ export const ROOMS: Room[] = [
     capacity: "2 Guests",
     size: "30 m²",
     bed: "Queen Size Bed",
-    image: "/src/assets/images/rotterdam_inn_suite_1795253191625.jpg",
+    image: "/images/rotterdam_inn_suite.jpg",
     gallery: [
-      "/src/assets/images/rotterdam_inn_suite_1795253191625.jpg",
+      "/images/rotterdam_inn_suite.jpg",
       "https://images.unsplash.com/photo-1566665797739-1674de7a421a?q=80&w=1200&auto=format&fit=crop"
     ],
     description: "Wake up to picturesque water views right outside your window. This elegantly appointed room combines classic Dutch architectural charm with contemporary minimalism.",
@@ -123,9 +123,9 @@ export const ROOMS: Room[] = [
     capacity: "4 Guests",
     size: "52 m²",
     bed: "2 King Beds or 1 King + 2 Twins",
-    image: "/src/assets/images/rotterdam_inn_hero_1795253192215.jpg",
+    image: "/images/rotterdam_inn_hero.jpg",
     gallery: [
-      "/src/assets/images/rotterdam_inn_hero_1795253192215.jpg"
+      "/images/rotterdam_inn_hero.jpg"
     ],
     description: "Spacious multi-room suite tailored for families visiting Rotterdam. Features connecting spaces, comfortable lounge seating, and extra amenities to make everyone feel at home.",
     amenities: ["Two Connected Rooms", "Family Lounge Area", "2 Smart TVs", "Complimentary Breakfast", "Mini-Refrigerator", "Safe & Security", "High-Speed Wi-Fi", "Extra Towels & Linens"]
@@ -139,9 +139,9 @@ export const ROOMS: Room[] = [
     capacity: "2-3 Guests",
     size: "75 m²",
     bed: "Super King Bed",
-    image: "/src/assets/images/rotterdam_inn_suite_1795253191625.jpg",
+    image: "/images/rotterdam_inn_suite.jpg",
     gallery: [
-      "/src/assets/images/rotterdam_inn_suite_1795253191625.jpg"
+      "/images/rotterdam_inn_suite.jpg"
     ],
     description: "The pinnacle of Rotterdam Inn hospitality. Enjoy panoramic rooftop views, private terrace access, premium jacuzzi bathtub, and personalized concierge service throughout your stay.",
     amenities: ["Private Rooftop Terrace", "Jacuzzi Bathtub", "Complimentary Champagne", "Super King Bed", "Dedicated Butler Service", "Express Check-in", "Premium Sound System", "Luxury Bath Amenities"]
@@ -157,7 +157,7 @@ export const OFFERS: Offer[] = [
     price: 299,
     originalPrice: 375,
     duration: "2 Nights (Fri - Sun)",
-    image: "/src/assets/images/rotterdam_inn_hero_1795253192215.jpg",
+    image: "/images/rotterdam_inn_hero.jpg",
     description: "Includes 2 nights in our Deluxe or Canal View Room, daily artisanal breakfast buffet, a welcome bottle of wine, and late checkout until 2 PM.",
     features: ["2 Nights Accommodation", "Daily Gourmet Breakfast", "Welcome Bottle of Dutch Wine", "Late Checkout (2 PM)", "Free Canal Map & Guide"],
     badge: "Most Popular"
@@ -170,7 +170,7 @@ export const OFFERS: Offer[] = [
     price: 349,
     originalPrice: 420,
     duration: "2 Nights",
-    image: "/src/assets/images/rotterdam_inn_suite_1795253191625.jpg",
+    image: "/images/rotterdam_inn_suite.jpg",
     description: "Ignite romance with rose petals upon arrival, chilled Prosecco, luxury chocolates, and a 3-course dinner voucher at our partner restaurant.",
     features: ["Executive King Room", "Chilled Prosecco & Chocolates", "Rose Petal Turn-down", "Dinner Voucher for Two", "Breakfast in Bed"],
     badge: "Couples Choice"
@@ -183,7 +183,7 @@ export const OFFERS: Offer[] = [
     price: 799,
     originalPrice: 1140,
     duration: "7 Nights",
-    image: "/src/assets/images/rotterdam_inn_hero_1795253192215.jpg",
+    image: "/images/rotterdam_inn_hero.jpg",
     description: "Ideal for remote workers, relocation guests, or extended holidays. Enjoy discounted weekly rates with full hotel amenities and weekly professional laundry service.",
     features: ["7 Nights in Deluxe Room", "High-Speed Fiber Wi-Fi", "Weekly Housekeeping & Laundry", "Free Nespresso Refills", "24/7 Concierge Support"],
     badge: "Best Value"
@@ -196,7 +196,7 @@ export const OFFERS: Offer[] = [
     price: 175,
     originalPrice: 210,
     duration: "Per Night",
-    image: "/src/assets/images/rotterdam_inn_suite_1795253191625.jpg",
+    image: "/images/rotterdam_inn_suite.jpg",
     description: "Conveniently located near Rotterdam Centraal. Enjoy high-speed dedicated workspaces, express breakfast, and flexible cancellation terms.",
     features: ["Express Breakfast", "Dedicated Work Desk", "High-Speed Fiber Internet", "Express Laundry Service", "Flexible Cancellation"],
     badge: "Business Friendly"
@@ -209,7 +209,7 @@ export const OFFERS: Offer[] = [
     price: 499,
     originalPrice: 590,
     duration: "3 Nights",
-    image: "/src/assets/images/rotterdam_inn_hero_1795253192215.jpg",
+    image: "/images/rotterdam_inn_hero.jpg",
     description: "Stay in our spacious Family Suite with complimentary breakfast for kids, discount vouchers for Erasmus Bridge tours and Rotterdam Zoo (Diergaarde Blijdorp).",
     features: ["Family Suite for 3 Nights", "Free Breakfast for Children", "Zoo & Museum Vouchers", "Board Games & Kids Amenities", "Late Checkout"],
     badge: "Family Pick"
@@ -222,7 +222,7 @@ export const OFFERS: Offer[] = [
     price: 245,
     originalPrice: 290,
     duration: "2 Nights",
-    image: "/src/assets/images/rotterdam_inn_suite_1795253191625.jpg",
+    image: "/images/rotterdam_inn_suite.jpg",
     description: "Cozy up as the leaves turn gold along Provenierssingel. Enjoy warm Dutch hot chocolate upon arrival, museum passes, and cozy evenings in our lounge.",
     features: ["Cozy Canal View Room", "Warm Hot Chocolate & Stroopwafels", "Museum Rotterdam Passes", "Complimentary Umbrella", "Cozy Lounge Access"],
     badge: "Seasonal"
@@ -256,7 +256,7 @@ export const FACILITIES: Facility[] = [
     name: "Prime Central Location",
     description: "Only a 4-minute walk from Rotterdam Centraal Station, putting you right next to shops, museums, and trams.",
     iconName: "MapPin",
-    image: "/src/assets/images/rotterdam_inn_hero_1795253192215.jpg"
+    image: "/images/rotterdam_inn_hero.jpg"
   },
   {
     id: "parking",
@@ -267,10 +267,10 @@ export const FACILITIES: Facility[] = [
   },
   {
     id: "lounge",
-    name: "Canal-View Lounge & Bar",
+    name: "Canal-Viem Lounge & Bar",
     description: "Unwind in our elegant lobby lounge with artisanal cocktails, local craft beers, and peaceful canal views.",
     iconName: "Wine",
-    image: "/src/assets/images/rotterdam_inn_lounge_1795253192216.jpg"
+    image: "/images/rotterdam_inn_lounge.jpg"
   }
 ];
 
